@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "==2.28.1"
+xlrd = "*"
+openpyxl = "*"
+xlwings = "*"
+tinui = "*"
+flask = "==2.0.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
